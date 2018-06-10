@@ -60,15 +60,6 @@ public class first {
 
         //
 
-        for (int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-
-                System.out.print(" " + array[i][j]);
-            }
-            System.out.println();
-        }
-
-        System.out.println("--------------------------------");
         // last
 
         for (int i=0;i<n;i++){
@@ -86,6 +77,7 @@ public class first {
 
             System.out.println();
         }
+        System.out.print("Серенднє арифметичне всіх елементів масиву = " + avg);
 
     }
 }
